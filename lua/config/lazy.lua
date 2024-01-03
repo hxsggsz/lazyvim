@@ -18,7 +18,7 @@ require("lazy").setup({
       "LazyVim/LazyVim",
       import = "lazyvim.plugins",
       opts = {
-        colorscheme = "solarized-osaka",
+        colorscheme = "catppuccin-mocha",
         news = {
           lazyvim = true,
           neovim = true,
@@ -27,7 +27,6 @@ require("lazy").setup({
     },
 
     -- import any extras modules here
-    -- { import = "lazyvim.plugins.extras.neotree.setup.view.side = right" },
     { import = "lazyvim.plugins.extras.lsp.none-ls" },
     { import = "lazyvim.plugins.extras.linting.eslint" },
     { import = "lazyvim.plugins.extras.coding.codeium" },
