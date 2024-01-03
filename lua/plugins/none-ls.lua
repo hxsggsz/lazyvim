@@ -6,6 +6,8 @@ return {
       opts.sources = vim.list_extend(opts.sources, {
         nls.builtins.diagnostics.stylelint,
         nls.builtins.formatting.stylelint,
+        nls.builtins.formatting.gofmt,
+        nls.builtins.formatting.goimports,
       })
     end,
   },
