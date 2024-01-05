@@ -1,5 +1,4 @@
 return {
-
   "nvim-cmp",
   dependencies = {
     -- codeium
