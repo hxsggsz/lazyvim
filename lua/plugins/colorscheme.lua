@@ -1,5 +1,6 @@
 return {
   { "catppuccin/nvim" },
+  { "elvessousa/sobrio" },
   { "folke/edgy.nvim" },
   {
     "miikanissi/modus-themes.nvim",
