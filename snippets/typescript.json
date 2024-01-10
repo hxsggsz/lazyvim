@@ -1,13 +1,13 @@
 {
   "named-arrow-function": {
     "prefix": "caf",
-    "body": ["const ${1} = () => {", " return (", "   ${2}", " )", "}"],
+    "body": ["export const ${1} = () => {", " return (", "   ${2}", " )", "}"],
     "description": "Create a named arrow function"
   },
   "named-arrow-function-props": {
     "prefix": "cafp",
     "body": [
-      "const ${1} = (props: ${2}Props) => {",
+      "export const ${1} = (props: ${2}Props) => {",
       " return (",
       "   ${3}",
       " )",
