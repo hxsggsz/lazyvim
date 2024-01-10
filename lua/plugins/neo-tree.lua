@@ -13,7 +13,8 @@ return {
         },
       },
       window = {
-        position = "right",
+        position = "left",
+        width = 25,
         mappings = {
           ["m"] = {
             "move",

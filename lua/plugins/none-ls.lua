@@ -4,7 +4,7 @@ return {
     opts = function(_, opts)
       local nls = require("null-ls")
       opts.sources = vim.list_extend(opts.sources, {
-        nls.builtins.diagnostics.stylelint,
+        -- nls.builtins.diagnostics.sylelint,
         nls.builtins.formatting.stylelint,
         nls.builtins.formatting.gofmt,
         nls.builtins.formatting.goimports,
