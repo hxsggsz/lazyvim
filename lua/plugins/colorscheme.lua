@@ -2,6 +2,8 @@ return {
   { "catppuccin/nvim" },
   { "elvessousa/sobrio" },
   { "folke/edgy.nvim" },
+  { "datsfilipe/min-theme.nvim" },
+  { "Mofiqul/dracula.nvim" },
   {
     "miikanissi/modus-themes.nvim",
     name = "modus",
