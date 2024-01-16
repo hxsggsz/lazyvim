@@ -1,5 +1,8 @@
 return {
   {
+    "windwp/nvim-ts-autotag",
+  },
+  {
     "echasnovski/mini.hipatterns",
     event = "BufReadPre",
     opts = {
