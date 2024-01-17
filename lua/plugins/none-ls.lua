@@ -7,6 +7,7 @@ return {
         -- nls.builtins.diagnostics.sylelint,
         nls.builtins.formatting.stylelint,
         nls.builtins.formatting.gofmt,
+        nls.builtins.formatting.prettierd,
         nls.builtins.formatting.goimports,
         nls.builtins.code_actions.gomodifytags,
         nls.builtins.code_actions.impl,
