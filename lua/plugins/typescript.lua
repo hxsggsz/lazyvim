@@ -5,6 +5,8 @@ return {
       vim.list_extend(opts.ensure_installed, {
         "tailwindcss-language-server",
         "typescript-language-server",
+        "prettierd",
+        "eslint_d",
         "css-lsp",
         "stylelint",
       })

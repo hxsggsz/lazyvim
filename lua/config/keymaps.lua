@@ -14,11 +14,14 @@ keymap.set("n", "x", '"_x')
 keymap.set("n", "+", "<C-a>")
 keymap.set("n", "-", "<C-x>")
 
+-- select the word
+keymap.set("n", "sc", "viw")
+
 -- exclude the word and enter in insert mode
 keymap.set("n", "sd", "viwdi")
 
 -- select the word and copy
-keymap.set("n", "sc", "viwy")
+keymap.set("n", "sy", "viwy")
 
 -- Delete a word backwards
 keymap.set("n", "dq", 'vb"_d')
