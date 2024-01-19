@@ -76,8 +76,13 @@ return {
     "akinsho/bufferline.nvim",
     event = "VeryLazy",
     keys = {
-      { "<Tab>", "<Cmd>BufferLineMoveNext<CR>", desc = "Next tab" },
-      { "<S-Tab>", "<Cmd>BufferLineMovePrev<CR>", desc = "Prev tab" },
+      { "<tab>", "<Cmd>BufferLineMoveNext<CR>", desc = "Next tab" },
+      { "<S-tab>", "<Cmd>BufferLineMovePrev<CR>", desc = "Prev tab" },
+    },
+    opts = {
+      options = {
+        separator_style = "slant",
+      },
     },
   },
 
