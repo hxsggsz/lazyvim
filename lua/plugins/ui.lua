@@ -55,9 +55,7 @@ return {
 
   {
     "rcarriga/nvim-notify",
-    opts = {
-      timeout = 2500,
-    },
+    enabled = false,
   },
 
   -- animations

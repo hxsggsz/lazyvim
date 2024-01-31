@@ -23,6 +23,9 @@ keymap.set("n", "sd", "viwdi")
 -- select the word and copy
 keymap.set("n", "sy", "viwy")
 
+-- select the word and paste
+keymap.set("n", "sp", "viwp")
+
 -- Delete a word backwards
 keymap.set("n", "dq", 'vb"_d')
 
@@ -46,6 +49,10 @@ keymap.set("n", "<C-m>", "<C-i>", opts)
 keymap.set("n", "te", ":tabedit")
 keymap.set("n", "<tab>", ":tabnext<Return>", opts)
 keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
+
+-- close current buffer
+keymap.set("n", "<S-x>", "<leader>bd")
+
 -- Split window
 keymap.set("n", "ss", ":split<Return>", opts)
 keymap.set("n", "sv", ":vsplit<Return>", opts)

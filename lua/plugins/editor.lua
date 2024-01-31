@@ -2,6 +2,7 @@ return {
   {
     "windwp/nvim-ts-autotag",
   },
+  { "mg979/vim-visual-multi" },
   {
     "echasnovski/mini.hipatterns",
     event = "BufReadPre",

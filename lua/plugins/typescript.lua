@@ -23,7 +23,6 @@ return {
           end,
         },
 
-        ---@type lspconfig.options.tsserver
         tsserver = {
           keys = {
             {
