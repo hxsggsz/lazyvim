@@ -45,13 +45,12 @@ keymap.set("n", "<Leader>O", "O<Esc>^Da", opts)
 -- Jumplist
 keymap.set("n", "<C-m>", "<C-i>", opts)
 
--- New tab
-keymap.set("n", "te", ":tabedit")
-keymap.set("n", "<tab>", ":tabnext<Return>", opts)
-keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
-
--- close current buffer
-keymap.set("n", "<S-x>", "<leader>bd")
+keymap.set("n", "<tab>", "<Cmd>BufferLineMoveNext<CR>")
+keymap.set("n", "<S-tab>", "<Cmd>BufferLineMovePrev<CR>")
+-- -- New tab
+-- keymap.set("n", "te", ":tabedit")
+-- keymap.set("n", "<tab>", ":tabnext<Return>", opts)
+-- keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
 
 -- Split window
 keymap.set("n", "ss", ":split<Return>", opts)
