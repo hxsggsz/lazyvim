@@ -58,13 +58,6 @@ return {
     enabled = false,
   },
 
-  -- animations
-  {
-    "echasnovski/mini.animate",
-    event = "VeryLazy",
-    opts = function(_, opts) end,
-  },
-
   -- buffer line
   {
     "akinsho/bufferline.nvim",
@@ -75,7 +68,11 @@ return {
     },
     opts = {
       options = {
-        separator_style = "slant",
+        hover = {
+          enabled = true,
+          delay = 200,
+          reveal = { "close" },
+        },
       },
     },
   },

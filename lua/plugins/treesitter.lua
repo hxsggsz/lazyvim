@@ -8,25 +8,34 @@ return {
         "astro",
         "cmake",
         "cpp",
+        "regex",
+        "jsdoc",
+        "dockerfile",
+        "json",
         "css",
         "gitignore",
         "go",
         "gomod",
+        "html",
+        "javascript",
+        "tsx",
+        "typescript",
+        "yaml",
         "gowork",
         "gosum",
         "graphql",
         "http",
         "java",
-        "php",
+        "prisma",
         "rust",
         "scss",
         "sql",
         "svelte",
       },
 
-      -- matchup = {
-      -- 	enable = true,
-      -- },
+      matchup = {
+        enable = true,
+      },
 
       -- https://github.com/nvim-treesitter/playground#query-linter
       query_linter = {

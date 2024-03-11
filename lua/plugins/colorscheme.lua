@@ -1,5 +1,6 @@
 return {
   { "catppuccin/nvim" },
+  { "ellisonleao/gruvbox.nvim" },
   { "elvessousa/sobrio" },
   { "folke/edgy.nvim" },
   { "datsfilipe/min-theme.nvim" },
